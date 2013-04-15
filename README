@@ -1,0 +1,30 @@
+----------------------------------------------------------------------
+plg_mootit
+copyright (c) 2013, A2 Hosting, Inc.
+http://www.a2hosting.com/
+
+Authors: Andy Melichar <amelichar@a2hosting.com>
+----------------------------------------------------------------------
+
+plg_mootit is a tool to integrate the Moot.it forums into the
+Joomla 3.0 environment.
+
+REQUIRES:      Joomla 3.x
+               Moot.it Account available free at http://moot.it/
+           
+INSTALLATION:  Use the Joomla Package Manager to install this plugin.
+
+
+----------------------------------------------------------------------
+The plg_mootit package is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License,
+version 3, as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, but
+without any warranty; without even the implied warranty of
+merchantability or fitness for a particular purpose.  See the GNU
+General Public License for more details.
+
+A copy of the GNU General Public License, version 3, is available at
+http://www.gnu.org/licenses/gpl.html
+----------------------------------------------------------------------

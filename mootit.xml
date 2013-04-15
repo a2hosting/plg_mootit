@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0.1" type="plugin" group="content" method="upgrade">
+	<name>Moot.it Integrator</name>
+	<description><![CDATA[
+Integrates the Moot.it Forum into Joomla.<br /><br />
+<h2>USAGE</h2>
+In any article, place the tag {mootit} to display the forum.<br />
+Use the tag {mootitblog} to display the blog.<br />
+Or, use the tag {mootitcomments} to dislay comments.
+]]></description>
+	<version>1.0</version>
+	<creationDate>April 2013</creationDate>
+	<author>Andy Melichar - A2 Hosting</author>
+	<authorEmail>amelichar@a2hosting.com</authorEmail>
+	<authorUrl>http://www.a2hosting.com/</authorUrl>
+	<copyright>Copyright (c) 2013 A2 Hosting, Inc. All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+
+	<!-- Files -->
+	<files>
+		<filename plugin="mootit">mootit.php</filename>
+	</files>
+
+	<!-- Parameters -->
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="mootituname" type="text" label="Moot.it User Name" />
+				<field name="loadjquery" type="radio" class="btn-group" default="0" label="Load jQuery" description="">
+					<option value="0">NO</option>
+					<option value="1">YES</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
